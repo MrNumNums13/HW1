@@ -15,7 +15,7 @@ public class HW1HarryHanskat {
 
 
         //2.5 - Calculate tips
-        System.out.println("***************** 2.5 - Calculate tips ********************\n");
+        System.out.println("\n***************** 2.5 - Calculate tips ********************\n");
 
         System.out.println("Enter the subtotal and a gratuity rate: ");
         Double subtotal = scan.nextDouble();
@@ -40,8 +40,8 @@ public class HW1HarryHanskat {
 
         System.out.println("Enter the number of seconds:");
         int minutes = scan.nextInt();
-        double years = (((minutes / 60)/24)/365);
-        double days = (minutes/60/24) % 365;
+        int years = (((minutes / 60)/24)/365);
+        int days = (minutes/60/24) % 365;
         System.out.println("That is approximately " + years + " years, and "+ days + " days.");
     }
 }
